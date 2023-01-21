@@ -31,6 +31,9 @@ function App() {
       refreshQuoteBox={refreshQuoteBox}
       color={color}
       />
+      <footer className='footer'>
+        <h3>Developed by Omar</h3>
+      </footer>
     </div>
   )
 }
