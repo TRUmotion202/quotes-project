@@ -1,0 +1,56 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotebox {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #363636;
+}
+
+.quotebox__quote {
+    font-size: 18px;
+    width: 85%;
+    margin: 0 0 0 auto;
+    text-align: center;
+}
+
+.quotebox__author {
+    text-align: end;
+    margin: 10px 5px 10px 0
+
+}
+
+.quotebox__button {
+    width: 30px;
+    aspect-ratio: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 10px 0 auto;
+}
+
+.quotebox__button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 200ms;
+}
+.quotebox__quote-type {
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
